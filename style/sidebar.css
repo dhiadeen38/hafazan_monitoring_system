@@ -1,0 +1,75 @@
+body, html {
+  height: 100% !important;
+}
+
+#wrapper {
+    height: 100%;
+    background: #e9ecef;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    z-index: 1;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background: #522184;
+
+}
+
+/* Always take up entire screen */
+#page-content-header {
+    width: 85%;
+    padding: 15px;
+    float: right;
+    background: #522184;
+
+}
+
+/* Always take up entire screen */
+#page-content-wrapper {
+    width: 85%;
+    padding: 15px;
+    float: right;
+    background: #e9ecef;
+
+}
+
+
+/* Sidebar styling - the entire ul list */
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 10px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: yellow;
+}
+
+.sidebar-nav li a:hover {
+    background: yellow;
+    color: #522184;
+}
+
+.sidebar-nav > .sidebar-brand {
+    position: center;
+    height: 54px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
